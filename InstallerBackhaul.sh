@@ -28,7 +28,7 @@ show_menu() {
 
 update_script() {
     echo "Updating script..."
-    wget -O InstallerBackhaul.sh https://GitHub.com/PixelShellGIT/InstallerBackhaul
+    wget -O InstallerBackhaul.sh https://raw.githubusercontent.com/PixelShellGIT/InstallerBackhaul/main/InstallerBackhaul.sh
     chmod +x InstallerBackhaul.sh
     exec ./InstallerBackhaul.sh
 }
